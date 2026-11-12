@@ -12,45 +12,22 @@ To sketch the given drawing with dimensions using fusion 360 tool.
   4. 2.5 Mbps or faster download; 500 Kbps or faster upload 
   
 ## PROCEDURE
-1. Set Up the Base Circles
-
-• Create a Sketch: Click Create Sketch on the top toolbar and select the XY Plane.
-• Draw Center Circles: Use the Center Diameter Circle (C) tool at the origin (0,0) to draw two concentric circles with diameters of 40.00 mm and 66.00 mm.
-• Draw the Top Boss: Draw a vertical construction line (L + X) straight up from the origin with a length of 65.00 mm. At the top endpoint, draw two concentric circles with diameters of 20.00 mm and 32.00 mm.
-
-2. Create the Lower-Right Cutout and Bosses
-
-• Locate the Bottom-Center Boss: Draw a vertical construction line straight down from the origin with a length of 50.00 mm. At the bottom endpoint, draw two concentric circles with diameters of 10.00 mm (inner hole, matching the lower-right boss) and 20.00 mm (outer boss).
-• Locate the Lower-Right Boss: From the center of the bottom-center boss, draw a horizontal construction line to the right with a length of 47.00 mm, then go straight up 24.00 mm. At this endpoint, draw two concentric circles with diameters of 10.00 mm and 20.00 mm.
-• Create the Bottom Cutout Arc: Draw a circle with a diameter of 40.00 mm (radius 20 mm) positioned between the bottom-center boss and the lower-right boss. Apply Tangent constraints so it smoothly touches the 20.00 mm outer circle of the bottom-center boss and the 20.00 mm outer circle of the lower-right boss, then use Trim (T) to remove the excess arc.
-
-3. Add Outer Connecting Arcs and Pattern
-
-• Draw Side Tangent Arcs: Use the 3-Point Arc tool to connect the 32.00 mm top outer circle to the 20.00 mm lower-right outer circle. Apply a Tangent constraint at both ends and set the arc diameter to 40.00 mm (radius 20.00 mm).
-• Mirror to the Left Side: Select the lower-right boss circles, the bottom cutout arc, and the side tangent arc. Use the Mirror tool across the vertical center axis to duplicate the exact geometry onto the left side.
-• Trim the Outer Profile: Use the Trim (T) tool to clean up any overlapping inner segments of the 66.00 mm base circle so the outer perimeter forms one continuous closed loop.
-<img width="237" height="453" alt="WhatsApp Image 2026-11-11 at 10 19 53 PM" src="https://github.com/user-attachments/assets/e8825f3c-2756-4344-8332-054244b972a6" />
-
-
-4. Create the Inner Center Notches
-
-• Draw One Notch: Zoom into the 40.00 mm center circle. Place a point on its perimeter and draw a circle with a diameter of 12.00 mm (radius 6 mm).
-• Pattern the Notches: Go to Create > Circular Pattern, select the 12.00 mm circle as the object, and select the center origin as the Center Point. Set the quantity to 6 and click OK.
-• Trim the Inner Profile: Use the Trim (T) tool to remove the outer halves of the six 12.00 mm circles and the inner circle segments between them, leaving the scalloped inner hub.
-<img width="267" height="346" alt="WhatsApp Image 2026-11-11 at 10 18 31 PM" src="https://github.com/user-attachments/assets/24976f19-8898-4308-a86f-bd0416ee2a46" />
-
-5. Finalize the Sketch
-
-• Check Constraints: Confirm that all sketch lines have turned from blue to black, indicating the profile is fully constrained.
-• Extrude (Optional): Click Finish Sketch, press E for Extrude, select the shaded inner profile, and pull it to your desired thickness to turn it into a 3D part.
-<img width="382" height="165" alt="WhatsApp Image 2026-11-11 at 10 29 48 PM" src="https://github.com/user-attachments/assets/59d2a3e1-39e7-43ec-9b8a-e5dd45ed0da8" />
-
-
-
-
+1.Open new file and then select sketch icon.
+2.Select the plane for sketching.
+3.Use sketching features (line, circle, arc, rectangle, polygon, etc.,) to draw the given sketch
+<img width="521" height="551" alt="Screenshot 2026-11-12 110719" src="https://github.com/user-attachments/assets/4bd11e79-fc97-40f8-b81b-01d8635579df" />
+4.Use sketch modifying features (cut, trim, mirror, move, etc.,) to edit the sketch.
+<img width="368" height="464" alt="Screenshot 2026-11-12 110731" src="https://github.com/user-attachments/assets/09b26684-6d1c-4c53-9984-a806004432ac" />
+5.Use inspect feature to measure the dimensions of sketch
+<img width="520" height="589" alt="Screenshot 2026-11-12 110748" src="https://github.com/user-attachments/assets/074586f8-3bb8-43d3-829e-708a92705001" />
+6.After finishing the sketch use finish sketch option to finalize the sketch.
+<img width="616" height="284" alt="Screenshot 2026-11-12 110759" src="https://github.com/user-attachments/assets/fe5bc240-d119-4df0-a568-281a58922512" />
+7.After finishing the sketch switch to drawing mode to plot the sketch in ISO standard.
+<img width="500" height="496" alt="Screenshot 2026-11-12 110807" src="https://github.com/user-attachments/assets/0a9b1e02-0707-410e-8ac1-85b6c41c474e" />
+<img width="445" height="457" alt="Screenshot 2026-11-12 110816" src="https://github.com/user-attachments/assets/fed923a0-d4bf-4863-89d4-4413f0f49da9" />
 
 ## SKETCHS
-<img width="939" height="721" alt="49b2d811-85d4-40f0-9087-2ffaa817fc70" src="https://github.com/user-attachments/assets/c94c552c-f59a-4d43-b50f-09668ea2c3c1" />
+<img width="752" height="790" alt="Screenshot 2026-11-12 110824" src="https://github.com/user-attachments/assets/b0526eb3-c28c-45ec-87c1-01d04d185b3e" />
 
 
 ## OUTPUT
